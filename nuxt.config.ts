@@ -21,7 +21,7 @@ export default defineNuxtConfig({
   runtimeConfig: {
     public: {
       apiBaseUrl: isProd
-        ? 'https://nuxt3-example-api.vercel.app/api'
+        ? 'https://nuxt-example-api.onrender.com/api'
         : 'http://localhost:3001',
     },
   },

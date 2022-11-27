@@ -19,8 +19,10 @@
         v-model:quantity="quantity"
       />
       <div class="modal-action">
-        <button class="btn-sm sm:btn" @click="props.closeModal">Close</button>
-        <button class="btn-sm btn-primary sm:btn" @click="addNewItem">
+        <button class="btn btn-sm sm:btn-md" @click="props.closeModal">
+          Close
+        </button>
+        <button class="btn btn-sm btn-primary sm:btn-md" @click="addNewItem">
           Add
         </button>
       </div>

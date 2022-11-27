@@ -15,6 +15,9 @@ export default defineNuxtConfig({
     },
   },
   plugins: ['~/plugins/vue-toastification.client.ts'],
+  build: {
+    transpile: ['vue-toastification'],
+  },
   runtimeConfig: {
     public: {
       apiBaseUrl: isProd

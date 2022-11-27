@@ -2,6 +2,14 @@
 const isProd = process.env.NODE_ENV === 'production'
 
 export default defineNuxtConfig({
+  app: {
+    head: {
+      charset: 'utf-16',
+      viewport: 'width=500, initial-scale=1',
+      title: 'My Apartments',
+      meta: [{ name: 'description', content: 'My Apartments app' }],
+    },
+  },
   css: ['~/assets/css/main.css'],
   postcss: {
     plugins: {

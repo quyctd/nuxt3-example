@@ -16,6 +16,10 @@ import { Apartment } from '~/types/apartment'
 const route = useRoute()
 const { id } = route.params
 
+useHead({
+  title: `Apartment ${id} detail`,
+})
+
 const breadcrumbItems = [
   {
     id: 1,

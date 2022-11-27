@@ -1,0 +1,109 @@
+{
+  "apartments": [
+    {
+      "id": 1,
+      "image": "https://images.unsplash.com/photo-1515263487990-61b07816b324?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80",
+      "address": "4841 Thomas Street",
+      "floor": 2,
+      "door": 204,
+      "inventory": [
+        {
+          "id": 1,
+          "name": "Chair",
+          "quantity": 1
+        },
+        {
+          "id": 2,
+          "name": "Table",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "image": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80",
+      "address": "2118 Oak Lane",
+      "floor": 5,
+      "door": 501,
+      "inventory": [
+        {
+          "id": 6,
+          "name": "Nightstand",
+          "quantity": 1
+        },
+        {
+          "id": 5,
+          "name": "Bed",
+          "quantity": 1
+        },
+        {
+          "id": 4,
+          "name": "Table",
+          "quantity": 1
+        },
+        {
+          "id": 3,
+          "name": "Chair",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "image": "https://images.unsplash.com/photo-1460317442991-0ec209397118?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80",
+      "address": "2356 Yorkie Lane",
+      "floor": 3,
+      "door": 305,
+      "inventory": [
+        {
+          "id": 6,
+          "name": "Table",
+          "quantity": 1
+        },
+        {
+          "id": 5,
+          "name": "Chair",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "image": "https://images.unsplash.com/photo-1493809842364-78817add7ffb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80",
+      "address": "844 Beech Avenue",
+      "floor": 3,
+      "door": 302,
+      "inventory": [
+        {
+          "id": 7,
+          "name": "Chair",
+          "quantity": 1
+        },
+        {
+          "id": 8,
+          "name": "Table",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "image": "https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2348&q=80",
+      "address": "4750 Rose Avenue",
+      "floor": 6,
+      "door": 601,
+      "inventory": [
+        {
+          "id": 7,
+          "name": "Chair",
+          "quantity": 1
+        },
+        {
+          "id": 8,
+          "name": "Table",
+          "quantity": 1
+        }
+      ]
+    }
+  ]
+}

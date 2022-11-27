@@ -1,0 +1,36 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "dev-mock": "concurrently \"yarn mock\" \"nuxt dev\"",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "eslint . --ext .ts,.vue",
+    "mock": "json-server --watch mock-server/db.json --port 3001"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config-typescript": "^12.0.0",
+    "@types/uuid": "^8.3.4",
+    "autoprefixer": "^10.4.13",
+    "concurrently": "^7.6.0",
+    "eslint": "^8.28.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-nuxt": "^4.0.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "json-server": "^0.17.1",
+    "nuxt": "3.0.0",
+    "postcss": "^8.4.19",
+    "prettier": "^2.8.0",
+    "tailwindcss": "^3.2.4",
+    "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "@tailwindcss/typography": "^0.5.8",
+    "daisyui": "^2.42.1",
+    "oh-vue-icons": "^1.0.0-rc3",
+    "uuid": "^9.0.0",
+    "vue-toastification": "^2.0.0-rc.5"
+  }
+}

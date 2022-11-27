@@ -27,6 +27,11 @@
       "door": 501,
       "inventory": [
         {
+          "id": 7,
+          "name": "Coffee Table",
+          "quantity": 1
+        },
+        {
           "id": 6,
           "name": "Nightstand",
           "quantity": 1

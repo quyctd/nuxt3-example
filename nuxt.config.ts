@@ -1,4 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+const isProd = process.env.NODE_ENV === 'production'
+
 export default defineNuxtConfig({
   css: ['~/assets/css/main.css'],
   postcss: {
@@ -15,7 +17,9 @@ export default defineNuxtConfig({
   plugins: ['~/plugins/vue-toastification.client.ts'],
   runtimeConfig: {
     public: {
-      apiBaseUrl: process.env.APP_BASE_API_URL || 'http://localhost:3001',
+      apiBaseUrl: isProd
+        ? 'https://nuxt3-example-api.vercel.app/api'
+        : 'http://localhost:3001',
     },
   },
 })
